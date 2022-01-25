@@ -16,6 +16,7 @@ function Sub() {
         <img src="/images/Group77.png" className="arrow" alt="" />
         <img src="/images/ring1.png" className="ring1" alt="" />
         <img src="/images/ring2.png" className="ring2" alt="" />
+        <img src="/images/Group5.png" className="g2" alt="" />
       </div>
     </div>
   );

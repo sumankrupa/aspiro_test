@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto&display=swap");
+
+.frame {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+
+.cloud{
+  position: absolute;
+  z-index: -1;
+  height: 85%;
+  width: 100%;
+}
+
+.dot1{
+position: absolute;
+width: 150px;
+top: 1050px;
+left: 1620px;
+}
+.dot2{
+  position: absolute;
+  width: 150px;
+  top: 1050px;
+  left: 1620px;
+  }
+
+
+
+ 

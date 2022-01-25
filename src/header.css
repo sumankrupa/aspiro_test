@@ -1,0 +1,50 @@
+.sk {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+   
+  
+  }
+  
+  .__header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .signupborder{
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .main__nav ul {
+    margin: 1em 0 0.5em;
+    text-align: center;
+  }
+  .main__nav li {
+    display: inline;
+  }
+  .main__nav div {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+  }
+  .__text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  .__dropbox {
+    display: flex;
+    flex-direction: row;
+   
+  
+    
+  }
+  .__dropbox > img{
+    width:15px;
+    margin-left:-15px ;
+  }
+  

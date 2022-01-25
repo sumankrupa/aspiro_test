@@ -1,0 +1,218 @@
+ /* book a trip */
+
+ .bookatrip{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin-top: 150px;
+    
+  }
+  .contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+  }
+  .listoptions
+  {
+    display: flex;
+    flex-direction: row;
+   align-items:center ;
+    
+    
+    
+  }
+  .listoptions > img{
+    margin-right: 20px;
+    width: 50px;
+  }
+  .listdes{
+    display: flex;
+    flex-direction: column;
+  }
+  h5{
+    margin-bottom: -10px;
+  }
+  .easyandfast{
+ 
+   width: 126px;
+   height: 27px;
+ 
+   
+ 
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+   /* identical to box height */
+   
+   text-align: center;
+   
+   /* TEXT CLR */
+   
+   color: #5E6282;
+  }
+  .listdes > p{
+ 
+ 
+ 
+   
+   width: 327px;
+   height: 40px;
+ 
+   
+  
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 124.5%;
+ 
+   
+   color: #5E6282;
+   
+  }
+  .listdes > h5{
+ 
+   width: 50%px;
+   height: 20px;
+  
+ 
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 124.5%;
+   /* identical to box height, or 20px */
+   
+   
+   /* TEXT CLR */
+   
+   color: #5E6282;
+  }
+ 
+  /* cards */
+  .card {
+   /* Add shadows to create the "card" effect */
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   border-radius: 26px;
+   width: 370px;
+   height: 400px;
+ background-color: white;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+
+   
+ }
+ .redgirl {
+   margin-left: 22.5px;
+ }
+ 
+ /* On mouse-over, add a deeper shadow */
+ .card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ /* Add some padding inside the card container */
+ .container {
+   padding: 2px 16px;
+ }
+ .special {
+   border-radius: 5px;
+   max-width: 320px;
+   margin-top: 25px;
+   
+ }
+ .heart {
+   width: 20px;
+   height: 18.58px;
+   margin-top: 15px;
+ }
+ .group {
+   width: 15.13px;
+   height: 15.13px;
+   margin-right: 7px;
+   margin-top: 20px;
+   margin-left: 10px;
+ }
+ .people_going {
+   display: flex;
+ }
+ .total {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ .vectors > img {
+   width: 40px;
+   margin-top: 5px;
+ }
+ 
+ .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 26px;
+    width: 263px;
+    height: 129px;
+    background-color: white;
+    display: flex;
+  flex-direction: row;
+  position: absolute;
+  top:200px ;
+left:250px ;
+  
+  }
+  .card1 > img{
+      width: 74px;
+  height: 74px;
+  margin: 10px;
+  
+ 
+ }
+ p , h4, label{
+     margin: 10px;
+     justify-content: space-between;
+ }
+ p{
+     margin-top: 20px;
+ }
+ 
+ .progress {
+     
+     
+     width: 100%;
+     max-width: 500px;
+     border: 1px solid lightgrey;
+     height: 3px;
+   }
+   
+   .progress .progress__bar {
+     height: 100%;
+     width: 40%;
+     background-color: #8A79DF;
+     ;
+     animation: fill-bar 3s infinite;
+   }
+   
+  .percent{
+     color: #8A79DF;
+  }
+  .joseph
+  {
+      font-size: 18px;
+  }
+  .blue
+  {
+    width: 554px;
+    height: 567px;
+      position: absolute;
+      top: -150px;
+      left:-20px;
+      z-index: -1;
+  }
